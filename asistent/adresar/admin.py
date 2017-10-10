@@ -1,4 +1,4 @@
-from adresar.models import Adresar
+from asistent.adresar.models import Adresar
 from django.contrib import admin
 
 class AdresarAdmin(admin.ModelAdmin):

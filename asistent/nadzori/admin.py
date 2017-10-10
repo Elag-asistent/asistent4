@@ -1,6 +1,6 @@
-from nadzori.models import Nadzor
-from projekti.models import Stanja
-from projekti.models import Openclose
+from asistent.nadzori.models import Nadzor
+from asistent.projekti.models import Stanja
+from asistent.projekti.models import Openclose
 from django.contrib import admin
 
 class NadzorAdmin(admin.ModelAdmin):

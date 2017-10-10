@@ -1,9 +1,9 @@
-from energetski.models import Energetski_certifikat
-from energetski.models import Vrsta
-from energetski.models import Slozenost
-from energetski.models import Razred
-from projekti.models import Stanja
-from projekti.models import Openclose
+from asistent.energetski.models import Energetski_certifikat
+from asistent.energetski.models import Vrsta
+from asistent.energetski.models import Slozenost
+from asistent.energetski.models import Razred
+from asistent.projekti.models import Stanja
+from asistent.projekti.models import Openclose
 from django.contrib import admin
 
 class EnergetskiAdmin(admin.ModelAdmin):

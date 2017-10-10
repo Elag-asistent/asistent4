@@ -1,7 +1,7 @@
-from projekti.models import Projekt
-from projekti.models import Stanja
-from projekti.models import Faze
-from projekti.models import Openclose
+from asistent.projekti.models import Projekt
+from asistent.projekti.models import Stanja
+from asistent.projekti.models import Faze
+from asistent.projekti.models import Openclose
 from django.contrib import admin
 
 class ProjektAdmin(admin.ModelAdmin):

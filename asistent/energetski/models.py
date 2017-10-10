@@ -1,5 +1,5 @@
-from projekti.models import Stanja
-from projekti.models import Openclose
+from asistent.projekti.models import Stanja
+from asistent.projekti.models import Openclose
 from django.db import models
 
 # Create your models here.
