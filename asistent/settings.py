@@ -43,10 +43,10 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
 	'debug_toolbar',
-    'adresar',
-    'projekti',
-    'nadzori',
-    'energetski',
+    'asistent.adresar',
+    'asistent.projekti',
+    'asistent.nadzori',
+    'asistent.energetski',
 )
 
 MIDDLEWARE_CLASSES = (
